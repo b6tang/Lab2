@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>meeting minutes</title>
+        <link rel="icon" href="media/favicon.ico">
+    </head>
+    <body>
+        <header> 
+            <div class="main page titles">         
+                <h1>First Meeting</h1>                
+                <h2>Preparation</h2> 
+                <h2>check-ins</h2>
+                <h2>Documentation</h2>
+                <p>posted on Friday, <time datetime="2021-10-01">1st Oct. 2021</time> By xxx</time></p>
+            </div>  
+            <!-- navigation items-->
+        </header>
+
+        <!-- main content-->
+        <main>
+            <hr>
+            <section>
+                <h3>attendance list</h3>
+                    <nav class="attendance">
+                        <ul>
+                            <li><a href="#">@StudentA</a></li>
+                            <li><a href="#">@StudentB</a></li>
+                            <li><a href="#">@StudentC</a></li>
+                        </ul>                        
+                    </nav>                    
+                <h3>Agenda</h3>
+                    <ol>
+                        <li>Introduction</li>
+                            <details>
+                                <summary>differences betwwen <b>b</b> and <strong>strong</strong></summary>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">b vs. strong</a>
+                            </details>
+
+                            <details>
+                                <summary>differences betwwen <i>i</i> and <em>em</em></summary>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">i vs. em</a>
+                            </details>
+
+                            <details>
+                                <summary>the usage of <a>a</a></summary>
+                                <p>create hyperlink</p>                              
+                            </details>
+
+                            <details>
+                                <summary>the usage of br</summary>
+                                <p>create linnnnnnnnnnnnnnnnne←<br>break in text</p>                              
+                            </details>
+                        <li>Ingredients</li>
+                        <li>Steps</li>
+                        <li>Discussion</li>
+                        <li>Conclusion</li>
+                    </ol>
+                <h3>Last Metting</h3>
+                    <ol>
+                        <p>no record.</p>
+                    </ol>
+                <h3>New Ideas</h3>
+                    <ol>
+                        <p>Spicy Wonton</p>
+                    </ol>
+                <h3>Concerns</h3>
+                    <details>
+                        <summary>Easy way to make the spicy sauce?</summary>
+                        <p>Mixing <span class="ingredients">red spicy oil</span>, chopped <span class="ingredients">parsley</span>, chopped <span class="ingredients">scallions</span>, a spoon of <span class="ingredients">sesame oil</span>.</p>
+                    </details>
+                <h3>Pictures</h3>
+                    <img src="media/spicy_wonton.png" alr="spicy wonton" width="250px">
+                <h3>Audio</h3>
+                    <figure>
+                        <audio controls src="media/sound.mp3">
+                            Your browser does not support this audio.
+                        </audio>
+                    </figure>
+                <h3>Video</h3>
+                    <video controls width="250">                
+                        <source src="media/Movie.mp4"type="video/mp4">
+                        Your browser does not support embedded videos.
+                    </video>
+                
+            </section>     
+            <hr>
+        </main>
+
+        <footer>
+            <p>Thank you for visiting.</p>
+        </footer>     
+
+        <form>
+            <fieldset>
+                <legend>Leave a message</legend>
+                <input type="checkbox" id="like" name="like">
+                <label for="like">Do you like this page?</label><br>
+
+                <input type="radio" id="male" name="gender">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">female</label><br>
+                
+                <label for="text">Your name:</label>
+                <input type="text" id="text" name="text"><br>
+
+                <label for="text">Your birthday:</label>
+                <input type="date" id="text" name="text"><br>
+                
+                <label for="comment">Your comment:</label><br>
+                <textarea id="comment" name="comment" rows="10" cols="60" >write something here.</textarea>
+
+                <br><label for="favor">Your favorite cuicine:</label><br>
+                <input list="favor cuicine" id="cuicine choice" name="favor cuicine"/>
+                
+                <datalist id="favor cuicine">
+                    <option value="American">
+                    <option value="Chinese">
+                    <option value="French">
+                    <option value="Spanish">
+                    <option value="Italian">
+                    <option value="Japanese">
+                    <option value="Indian">
+                    <option value="Thai">
+                    <option value="Others">
+                </datalist>
+
+                <br><label for="favor meat">Your favorite meat:</label><br>                
+                <select id="favor meat">
+                    <option value="">--Please choose an option--</option>
+                    <option value="fish">fish</option>
+                    <option value="pork">pork</option>
+                    <option value="beef">beef</option>
+                    <option value="chicken">chicken</option>
+                    <option value="veggies">veggies</option>
+                    <option value="egg">egg</option>
+                    <option value="seafood">seafood</option>
+                    <option value="others">others</option>
+                </select>
+
+                <br><br>
+                <button class="submit" type="submit">submit</button>
+            </fieldset>
+        </form>
+            
+    </body>
+</html>
