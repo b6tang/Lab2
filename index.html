@@ -12,7 +12,7 @@
                 <h2>Preparation</h2> 
                 <h2>check-ins</h2>
                 <h2>Documentation</h2>
-                <p>posted on Friday, <time datetime="2021-10-01">1st Oct. 2021</time> By xxx</time></p>
+                <p>posted on Friday, <time datetime="2021-10-01">1st Oct. 2021</time> By xxx</p>
             </div>  
             <!-- navigation items-->
         </header>
@@ -30,7 +30,6 @@
                         </ul>                        
                     </nav>                    
                 <h3>Agenda</h3>
-                    <ol>
                         <li>Introduction</li>
                             <details>
                                 <summary>differences betwwen <b>b</b> and <strong>strong</strong></summary>
@@ -55,22 +54,17 @@
                         <li>Steps</li>
                         <li>Discussion</li>
                         <li>Conclusion</li>
-                    </ol>
                 <h3>Last Metting</h3>
-                    <ol>
                         <p>no record.</p>
-                    </ol>
                 <h3>New Ideas</h3>
-                    <ol>
                         <p>Spicy Wonton</p>
-                    </ol>
                 <h3>Concerns</h3>
                     <details>
                         <summary>Easy way to make the spicy sauce?</summary>
                         <p>Mixing <span class="ingredients">red spicy oil</span>, chopped <span class="ingredients">parsley</span>, chopped <span class="ingredients">scallions</span>, a spoon of <span class="ingredients">sesame oil</span>.</p>
                     </details>
                 <h3>Pictures</h3>
-                    <img src="media/spicy_wonton.png" alr="spicy wonton" width="250px">
+                    <img src="media/spicy_wonton.png" alt="spicy wonton" width="250px">
                 <h3>Audio</h3>
                     <figure>
                         <audio controls src="media/sound.mp3">
@@ -103,18 +97,20 @@
                 <label for="female">female</label><br>
                 
                 <label for="text">Your name:</label>
-                <input type="text" id="text" name="text"><br>
+                <input type="text" id="name" name="name"><br>
 
                 <label for="text">Your birthday:</label>
-                <input type="date" id="text" name="text"><br>
+                <input type="date" id="date" name="date"><br>
                 
                 <label for="comment">Your comment:</label><br>
                 <textarea id="comment" name="comment" rows="10" cols="60" >write something here.</textarea>
 
-                <br><label for="favor">Your favorite cuicine:</label><br>
-                <input list="favor cuicine" id="cuicine choice" name="favor cuicine"/>
+                <br>
+                <label for="favorCuicine">Your favorite cuicine:</label>
+                <br>
+                <input list="favorCuicine" id="cuicineChoice" name="favorCuicine"/>
                 
-                <datalist id="favor cuicine">
+                <datalist id="favorCuicine">
                     <option value="American">
                     <option value="Chinese">
                     <option value="French">
@@ -126,8 +122,8 @@
                     <option value="Others">
                 </datalist>
 
-                <br><label for="favor meat">Your favorite meat:</label><br>                
-                <select id="favor meat">
+                <br><label for="favorMeat">Your favorite meat:</label><br>                
+                <select id="favorMeat">
                     <option value="">--Please choose an option--</option>
                     <option value="fish">fish</option>
                     <option value="pork">pork</option>
